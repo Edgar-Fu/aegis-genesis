@@ -1,0 +1,17 @@
+t_CPA = 100.000000000000 s
+d_min = 0.320000000000 NM
+P_c = 0.902668412081
+R = 0.821601047249
+H = 1
+T_margin = 55.000000000000 s
+PASS nominal approach
+PASS exact risk threshold: R=.700 t=120 hard=0 expected H=0
+PASS just above risk: R=.701 t=120 hard=0 expected H=1
+PASS time threshold equality: R=.650 t=120 hard=0 expected H=0
+PASS time threshold crossing: R=.650 t=119 hard=0 expected H=1
+PASS hard boundary: R=.200 t=300 hard=1 expected H=1
+PASS low risk control: R=.200 t=300 hard=0 expected H=0
+PASS zero relative velocity rejected
+PASS zero reference distance rejected
+PASS receding motion retains workbook signed time
+Tests: 10/10 passed
